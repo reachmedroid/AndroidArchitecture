@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ArchitectureActivity">
+
+    <Button
+        android:id="@+id/buttonMVC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVC"
+        android:padding="10dp"
+        android:onClick="onMVCActivity"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonMVP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVP"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onMVPActivity"/>
+
+    <Button
+        android:id="@+id/buttonMVVM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVVM"
+        android:padding="10dp"
+        android:onClick="onMVVMActivity"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
